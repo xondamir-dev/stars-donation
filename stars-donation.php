@@ -14,7 +14,7 @@ if ($message && isset($message['successful_payment'])) {
     
     bot('sendMessage', [
         'chat_id' => $chat_id,
-        'text' => "🤝 <b>Thanks for the donation.
+        'text' => "🤝 <b>Thanks very much for the donation.
         
 Amount:</b> $amount ⭐️ Stars",
         'parse_mode' => 'HTML'

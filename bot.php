@@ -1,4 +1,5 @@
 <?php
+#include with config.php
 include 'config.php';
 
 $raw_input = file_get_contents('php://input');
